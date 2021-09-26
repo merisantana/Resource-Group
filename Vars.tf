@@ -1,7 +1,6 @@
-Variable "resourcerm_group_name"{
-  type "string"
+variable "name_resource_group" {
+    type        = string
 }
-
-Variable "location" {
-  type "string"
+variable "location" {
+    type        = string
 }
