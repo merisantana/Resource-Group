@@ -1,7 +1,9 @@
 provider "azurerm" {
-
-  version = "=2.20.0"
   features {}
+}
+
+terraform {
+  backend "azure" {}
 }
 
 resource "azurerm_resource_group" "rg" {
